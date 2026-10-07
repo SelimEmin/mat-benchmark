@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Linter and test caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# The flat working directory src/stage.sh builds; every file in it is a hard link
+# to a tracked file, so committing it would duplicate the whole deposit.
+_flat/
+
+# LaTeX build products. manuscript.pdf IS tracked -- it is the submitted artefact --
+# so it is re-included below.
+tex/*.aux
+tex/*.bbl
+tex/*.blg
+tex/*.fls
+tex/*.fdb_latexmk
+tex/*.log
+tex/*.out
+tex/*.synctex.gz
+tex/*.toc
+!tex/manuscript.pdf
+
+# Checkpoints internal_full.py writes between seeds
+internal_full_seed*.json
+
+# OS cruft
+.DS_Store
+Thumbs.db
+*~

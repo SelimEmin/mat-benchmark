@@ -1,0 +1,387 @@
+{
+  "CHEMBL281594": {
+    "pref_name": "VANOXERINE",
+    "synonyms": [
+      "GBR 12909",
+      "GBR-12909",
+      "Vanoxerina",
+      "Vanoxerine"
+    ]
+  },
+  "CHEMBL26320": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL781": {
+    "pref_name": "MAZINDOL",
+    "synonyms": [
+      "42-548",
+      "AN-448",
+      "Magrilon",
+      "Mazanor",
+      "Mazildene",
+      "Mazindol",
+      "Mazindol civ",
+      "SAH-42548",
+      "Sanorex",
+      "Terenac",
+      "Teronac"
+    ]
+  },
+  "CHEMBL331799": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL122452": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL121611": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL420900": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL121460": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL121027": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL123252": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL333667": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL123830": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL336613": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL130477": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL336100": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL133902": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL132954": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL132955": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL133043": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL130668": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL336940": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL132082": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL370805": {
+    "pref_name": "COCAINE",
+    "synonyms": [
+      "(r)-(-)-cocaine",
+      "Benzoylmethylecgonine",
+      "Cocaine",
+      "Cocainum",
+      "IDS-NC-004",
+      "Neurocaine",
+      "RX-0041",
+      "RX0041"
+    ]
+  },
+  "CHEMBL544370": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL2112594": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL111128": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL326466": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL323447": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL109571": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL109517": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL322067": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL113136": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL201976": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL201978": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL202409": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL202410": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL202348": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL201666": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL369997": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL201960": {
+    "pref_name": "PYROVALERONE",
+    "synonyms": [
+      "J8.659B",
+      "Pirovalerona",
+      "Pyrovalerone"
+    ]
+  },
+  "CHEMBL379679": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL204538": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL203403": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL205028": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL204288": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL204759": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL204254": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL203488": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL202846": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL2113217": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL202420": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL202479": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL426304": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL372312": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL205082": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL203640": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL203562": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL203563": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL379446": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL381127": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL227179": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL388759": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL227231": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL227232": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL388760": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL227233": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL388612": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL388832": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL229699": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL229381": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL375685": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL436132": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL229436": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL226984": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL226933": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL95": {
+    "pref_name": "TACRINE",
+    "synonyms": [
+      "Tacrina",
+      "Tacrinal",
+      "Tacrine"
+    ]
+  },
+  "CHEMBL390743": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL227180": {
+    "pref_name": null,
+    "synonyms": []
+  },
+  "CHEMBL529437": {
+    "pref_name": "COCAINE HYDROCHLORIDE",
+    "synonyms": [
+      "Cocaine hcl",
+      "Cocaine hydrochloride",
+      "Cocaine hydrochloride cii",
+      "Cocaine muriate",
+      "Cocainum muriaticum",
+      "Goprelto",
+      "MCV 4526",
+      "NIH 8211",
+      "NSC-25263",
+      "Numbrino",
+      "RX-0041-002"
+    ]
+  },
+  "CHEMBL1696": {
+    "pref_name": "DESIPRAMINE HYDROCHLORIDE",
+    "synonyms": [
+      "18-8181",
+      "DMI",
+      "Desipramine hcl",
+      "Desipramine hydrochloride",
+      "EX 4355",
+      "EX-4355",
+      "G-35020",
+      "JB-8181",
+      "NSC-114901",
+      "Norpramin",
+      "Pertofran",
+      "Pertofrane",
+      "RMI 9,384A",
+      "RMI-9384A"
+    ]
+  },
+  "CHEMBL5723329": {
+    "pref_name": null,
+    "synonyms": []
+  }
+}

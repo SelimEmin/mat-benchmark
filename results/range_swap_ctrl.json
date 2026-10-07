@@ -1,0 +1,44 @@
+{
+ "DAT|Stalberga 2026": {
+  "n_train": 46,
+  "external_trained": 0.01888641265530046,
+  "chembl_same_n": 0.09520766241723332,
+  "chembl_same_n_sd": 0.029341906249759634,
+  "chembl_full": 0.47784661604500717
+ },
+ "DAT|PDSP / BindingDB": {
+  "n_train": 43,
+  "external_trained": 0.017254037144639675,
+  "chembl_same_n": 0.07802685630082287,
+  "chembl_same_n_sd": 0.018986523442176505,
+  "chembl_full": 0.4313654024084327
+ },
+ "NET|Stalberga 2026": {
+  "n_train": 46,
+  "external_trained": 0.0028352598815049534,
+  "chembl_same_n": 0.03136540414691332,
+  "chembl_same_n_sd": 0.017843858159955685,
+  "chembl_full": 0.3189728193370298
+ },
+ "NET|PDSP / BindingDB": {
+  "n_train": 43,
+  "external_trained": 0.005007044132311858,
+  "chembl_same_n": 0.0699653651385571,
+  "chembl_same_n_sd": 0.044210611389177736,
+  "chembl_full": 0.4731196972150469
+ },
+ "SERT|Stalberga 2026": {
+  "n_train": 46,
+  "external_trained": 0.0008551397787816863,
+  "chembl_same_n": 0.01307836011279442,
+  "chembl_same_n_sd": 0.006132488555633791,
+  "chembl_full": 0.2327092916074107
+ },
+ "SERT|PDSP / BindingDB": {
+  "n_train": 43,
+  "external_trained": 0.03691641464158007,
+  "chembl_same_n": 0.03871027691891783,
+  "chembl_same_n_sd": 0.022351964691420808,
+  "chembl_full": 0.4494444437464837
+ }
+}

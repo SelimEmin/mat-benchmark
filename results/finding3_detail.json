@@ -1,0 +1,135 @@
+{
+  "proportion_positive": {
+    "DAT": {
+      "n": 86,
+      "positive": 24,
+      "pct": 27.906976744186046,
+      "ci95": [
+        0.187682820059778,
+        0.38621697867884874
+      ],
+      "sign_test_p": 5.083654201844156e-05
+    },
+    "NET": {
+      "n": 75,
+      "positive": 64,
+      "pct": 85.33333333333333,
+      "ci95": [
+        0.7527082855541247,
+        0.9244445941573516
+      ],
+      "sign_test_p": 3.108521862394645e-10
+    },
+    "SERT": {
+      "n": 66,
+      "positive": 24,
+      "pct": 36.36363636363637,
+      "ci95": [
+        0.24867778305726482,
+        0.49126056848968486
+      ],
+      "sign_test_p": 0.03558272445223169
+    }
+  },
+  "permutation": {
+    "DAT": {
+      "observed": -0.28000000000000025,
+      "p": 5e-05,
+      "null_abs_max": 0.25
+    },
+    "NET": {
+      "observed": 0.5499999999999998,
+      "p": 5e-05,
+      "null_abs_max": 0.4499999999999993
+    },
+    "SERT": {
+      "observed": -0.08999999999999986,
+      "p": 0.2094,
+      "null_abs_max": 0.18999999999999995
+    }
+  },
+  "paper_level": {
+    "DAT": {
+      "n_sources": 6,
+      "positive": 2,
+      "median_of_medians": -0.13500000000000023,
+      "sign_test_p": 0.6875,
+      "sources": {
+        "Houlihan 2002": 0.020000000000000462,
+        "Choi 1999": -0.2400000000000002,
+        "Meltzer 2006": -0.03000000000000025,
+        "Axford 2003": -0.5099999999999998,
+        "Gong 2007": -0.4900000000000002,
+        "Eshleman 2017": 0.2787536009528289
+      }
+    },
+    "NET": {
+      "n_sources": 6,
+      "positive": 6,
+      "median_of_medians": 0.6110157206696729,
+      "sign_test_p": 0.03125,
+      "sources": {
+        "Houlihan 2002": 1.12,
+        "Choi 1999": 0.15000000000000036,
+        "Meltzer 2006": 0.9900000000000002,
+        "Axford 2003": 0.46999999999999975,
+        "Gong 2007": 0.3099999999999996,
+        "Eshleman 2017": 0.752031441339346
+      }
+    },
+    "SERT": {
+      "n_sources": 5,
+      "positive": 2,
+      "median_of_medians": -0.1299999999999999,
+      "sign_test_p": 1.0,
+      "sources": {
+        "Houlihan 2002": -0.1299999999999999,
+        "Choi 1999": -0.33999999999999986,
+        "Meltzer 2006": 0.1849999999999996,
+        "Gong 2007": -0.2599999999999998,
+        "Eshleman 2017": 0.17609125905568124
+      }
+    }
+  },
+  "cliffs_delta": {
+    "NET_vs_DAT": {
+      "delta": 0.7294573643410853,
+      "mannwhitney_p": 1.5764541614194225e-15
+    },
+    "NET_vs_SERT": {
+      "delta": 0.665050505050505,
+      "mannwhitney_p": 1.0521545151831158e-11
+    }
+  },
+  "lodo": {
+    "DAT": {
+      "base": -0.28000000000000025,
+      "worst_source": "Gong 2007",
+      "worst_value": -0.16999999999999993
+    },
+    "NET": {
+      "base": 0.5499999999999998,
+      "worst_source": "Meltzer 2006",
+      "worst_value": 0.3900000000000001
+    },
+    "SERT": {
+      "base": -0.08999999999999986,
+      "worst_source": "Gong 2007",
+      "worst_value": -0.03000000000000025
+    }
+  },
+  "structural_census": {
+    "counts": {
+      "other scaffold": 31,
+      "benzhydryl / diarylmethyl": 15,
+      "fused isoindole (mazindol-type)": 7,
+      "mazindol-type, any ring size": 1,
+      "alpha-pyrrolidinophenone": 26,
+      "acyclic arylethylamine (releaser)": 1
+    },
+    "mw_median": 303.35800000000006,
+    "mw_min": 198.26899999999992,
+    "mw_max": 580.6660000000004,
+    "n_below_230Da": 1
+  }
+}

@@ -1,0 +1,182 @@
+item,assay_description,modality,_target,standard_type
+1,"Inhibition of 2,5,6-[3H]-dopamine uptake at human DAT expressed in African green monkey COS7 cells incubated for 10 mins prior to radioligand addition measured after 5 mins by scintillation counting analysis",conflict,DAT,Ki
+2,Affinity to displace binding of [3H]WIN-35428 to dopamine transporter,binding,DAT,Ki
+3,Selectivity interaction (GPCR panel (PDSP screen)) EUB0000316b SLC6A3,unclear,DAT,Ki
+4,Binding affinity to human DAT A480T mutant expressed in African green monkey COS7 cells assessed as inhibition of [3H]-dopamine uptake after 5 mins by beta-scintillation counting analysis,conflict,DAT,Ki
+5,Inhibition of human DAT in HEK cells assessed as [3H]dopamine reuptake,uptake,DAT,IC50
+6,Binding affinity to wild type human SERT expressed in African green monkey COS7 cells assessed as inhibition of [3H]-serotonin uptake after 3 mins by beta-scintillation counting analysis,conflict,SERT,Ki
+7,Inhibition of [3H]norepinephrine uptake in HEK cells expressing human NET,uptake,NET,IC50
+8,"Radioligand Binding Assay: Compounds were dissolved in 100% DMSO at a concentration 100 times the desired highest assay concentration, serially diluted 1:3 in 100% DMSO, and 0.4 ul/well of each solution was dispensed to a Nunc polypropylene, round bottom, 384-well plate. 100% inhibition is defined with 0.4ul/well of 1 mM fluoxetine dissolved in DMSO. 20 ul/well of a 2x membrane preparation (15 ug/ml in 50 mM Tris-Cl, pH 7.5, 120 mM NaCl, 5 mM KCl) and 20 ul/well of a 2x radioligand solution (520 pM [125I]RTI-55 in 50 mM Tris-Cl, pH 7.5, 120 mM NaCl, 5 mM KCl) were added to each well and the reaction incubated for 1 hour at room temperature. The contents of the assay plate were then transferred to a Millipore MultiscreenHTS GF/B filter plate which was pretreated with 0.5% PEI for at least one hour. The plate was vacuum filtered and washed with 7 washes of 100 uA/well 50 mM Tris-Cl, pH 7.5, 120 mM NaCl, 5 mM KCl chilled to 4 C.",binding,SERT,IC50
+9,Inhibition of [3H]serotonin reuptake at SERT expressed in HEK293 cells scintillation counting,uptake,SERT,IC50
+10,Displacement of [3H]Citalopram from human serotonin transporter transporter stably expressed in HEK293 cells after 30 mins by neurotransmitter transporter uptake assay,conflict,SERT,Ki
+11,"Affinity Biochemical interaction: (inhibition of [3H]WIN25,248 binding to dopamine transporter in rat caudate putamen (membrane assay)) EUB0002488aCl SLC6A3",binding,DAT,Ki
+12,Inhibition of [3H]- NE uptake in HEK cells expressing norepinephrine transporter,uptake,NET,IC50
+13,Safety47 Scan (DiscoverX - Eurofins),unclear,SERT,IC50
+14,Inhibition of [3H]dopamine uptake in human DAT F472L mutant transfected HEK293 cells,uptake,DAT,IC50
+15,Inhibition of dopamine re-uptake at human dopamine transporter expressed in HEK293 cells,uptake,DAT,IC50
+16,Inhibition of [3H]NA uptake at NA transporter expressed in HEK293 cells,uptake,NET,IC50
+17,Inhibition of recombinant human NET expressed in HEK293 cell membranes assessed as reduction in [3H]-norepinephrine uptake incubated for 22 mins by micro beta scintillation counting analysis,uptake,NET,IC50
+18,Inhibition of DAT receptor (unknown origin),unclear,DAT,IC50
+19,In vitro binding affinity against human norepinephrine transporter in human embryonic kidney cell line by using [3H]-nisoxatine radioligand,binding,NET,Ki
+20,Binding affinity towards human UPTK-NE transporter,binding,NET,Ki
+21,Inhibition of [3H]dopamine reuptake at human DAT expressed in LLCPK cells by scintillation proximity assay,uptake,DAT,IC50
+22,"Binding Assay: DA transporter binding assay for evaluating binding of the compound to the dopamine transporter was carried out using human recombinant dopamine transporter membrane (PerkinElmer Life and Analytical Sciences, USA) expressed in CHO-K1 cells and radioisotope [3H]WIN35,428 (PerkinElmer).That is, the test drug, 8 nM [3H]WIN35,428, dopamine transporter membrane (23 ug/well), and 50 mM Tris-HCl buffer (pH 7.4) containing 100 mM NaCl were added to obtain a reaction mixture with a final volume of 0.25 ml. After incubation for 120 minutes at 4° C., the mixture was quickly passed through a Filtermat A glass fiber filter pre-soaked with 0.5% (w/v) PEI (polyethyleneimine) using Inotech Harvester (Inotech) to terminate the reaction. After washing with cold washing buffer (50 mM Tris-HCl, pH 7.4, 0.9% NaCl) solution, the filter was covered with MeltiLex and sealed in a sample bag. After drying in an oven, radioactivity was counted using MicroBeta Plus (Wallac).",binding,DAT,IC50
+23,Inhibition of [3H]citalopram uptake at human 5HTT expressed in HEK293 cells by SPA,uptake,SERT,Ki
+24,Inhibition of [3H]noradrenalin reuptake at human NET expressed in LLCPK cells by scintillation proximity assay,uptake,NET,IC50
+25,Displacement of [125I]RTI-55 from human recombinant SERT expressed in HEK293 cells by scintillation counting,binding,SERT,Ki
+26,Inhibition of human norepinephrine transporter,unclear,NET,Ki
+27,Inhibition of [3H]dopamine uptake at human DAT R344M mutant expressed in HEK293 cells,uptake,DAT,IC50
+28,"Inhibition of the Dopamine transporter (DAT, SLC6A3) as assessed by GPCR-mediated changes in cell morphology using the impedance-based transporter activity through receptor activation (TRACT) assay in HEK-293 JumpIN-SLC6A3 cells (PubChem AID: 1745858)",unclear,DAT,IC50
+29,Inhibition of DA transporter expressed in HEK293 cells,unclear,DAT,IC50
+30,Displacement of [3H]Nisoxetine from human norepinephrine transporter stably expressed in HEK293 cells after 30 mins by neurotransmitter transporter uptake assay,conflict,NET,Ki
+31,Inhibition of SERT (unknown origin) expressed in HEK293 cells assessed as reduction in 5-HT reuptake incubated for 30 mins followed by centrifugation for 15 secs and measured after 30 mins,uptake,SERT,IC50
+32,Displacement of [3H]GBR12935 from human DAT by liquid scintillation assay,binding,DAT,Ki
+33,Selectivity interaction (GPCR panel (PDSP screen)) EUB0000714a SLC6A2,unclear,NET,Ki
+34,Inhibition of [3H]DA uptake in HEK cells expressing dopamine transporter,uptake,DAT,IC50
+35,Inhibition of [3H]serotonin reuptake at human SERT expressed in HEK293 cells by scintillation counting,uptake,SERT,IC50
+36,Inhibition of serotonin reuptake at human SERT expressed in HEK293 cells coexpressing macrophage scavenger receptor,uptake,SERT,Ki
+37,Inhibition of dopamine transporter (unknown origin) by cell-based assay,unclear,DAT,IC50
+38,Inhibitory activity of compound against serotonin transport by HC5-5-HT transporter,unclear,SERT,IC50
+39,Displacement of [N-methyl-3H]WIN-35428 from human recombinant DAT expressed in LLCPK cells by liquid scintillation counting,binding,DAT,Ki
+40,Inhibition of human 5-HT transporter assessed as inhibition constant,unclear,SERT,Ki
+41,Displacement of [3H]nisoxetine from human NET expressed in HEK293 cells,binding,NET,Ki
+42,Inhibition of [3H]NE reuptake by human norepinephrine transporter expressed in HEK293 cells,uptake,NET,IC50
+43,Inhibition of NET (unknown origin),unclear,NET,Ki
+44,"Functional Uptake Assay (hSERT): Inhibition of human serotonin reuptake transporter was assayed using the recombinant human serotonin transporter expressed in HEK-293 cells. HEK-293 cells expressing human serotonin transporter were plated before the assay. Test compound and/or vehicle was preincubated with cells in modified HEPES buffer pH 7.1 or pH 7.4 for 20 minutes at 18 to 25° C. and 65 nM [3H]serotonin was then added for an additional timed incubation period (ten to thirty minutes). Cells with internalized [3H]serotonin were washed and the amount of tritium taken into cells is counted using a liquid scintillation counter to determine [3H]serotonin uptake. Non-specific binding of tritium was measured in a control reaction containing 10 uM fluoxetine, and was subtracted from the counts for assays to correct for non-specific binding of tritium. Reduction of [3H]serotonin uptake by 50 percent or more (50%) relative to an uninhibited control reaction indicates significant inhibitory activity. Compounds were screened at 10, 1, 0.1, 0.01 and 0.001 uM. The reference compound for the assay was fluoxetine, for which the IC50 value of 7.1 nM was obtained in a typical experiment.",conflict,SERT,IC50
+45,Inhibition of human DAT expressed in CHOK1 cells assessed as decrease in [3H]-dopamine reuptake after 10 mins by scintillation counting method,uptake,DAT,IC50
+46,Displacement of [N-methyl-3H]nisoxetine from human recombinant NET expressed in pig LLCPK cells after 2 hrs by liquid scintillation counting,binding,NET,Ki
+47,Displacement of [3H]dopamine from human recombinant DAT expressed in HEK293 cells by scintillation counting,binding,DAT,IC50
+48,Binding affinity to serotonin transporter (SERT) in membranes of cells selectively expressing the human genes for SERT,binding,SERT,Ki
+49,Inhibition of recombinant human DAT expressed in HEK293 cell membranes assessed as reduction in [3H]-DA uptake incubated for 22 mins by micro beta scintillation counting analysis,uptake,DAT,IC50
+50,Displacement of [3H]nisoxetine from human NET,binding,NET,Ki
+51,In vivo inhibition of uptake of 5-HT in human platelets,uptake,SERT,IC50
+52,Inhibition of full-length recombinant human DAT expressed in CHOK1 cells assessed as reduction in [3H]dopamine uptake pretreated for 20 mins followed by [3H]dopamine addition measured after 10 mins by scintillation counting method,uptake,DAT,IC50
+53,"Binding Assay: Receptor binding was performed using membrane fractions prepared from the HEK-293 cell line recombinantly expressing rat 5-HT7 receptors (NCBI accession NM_022938). Compound affinity for the rat 5-HT7 receptor subtype was evaluated by competitive radioligand binding assays using 5-carboxamido[3H]tryptamine ([3H]5-CT) (Amersham Biosciences, cat. 90000403) detection. HitHunter cAMP assays are in-vitro based competitive immunoassays. The assay was performed on the HEK-293 cell line stably transfected with r5-HT7 receptor. Cells were pre-incubated with test compounds for 10 minutes. For antagonist testing, the cells were then challenged with 100 nM 5-CT for 20 minutes. Cells were then lysed and cAMP measured according to manufacturers protocol (Amersham, cat. NET791250UC) or [3H]mesulergine (Amersham, cat. TRK1041). The assay was performed on membranes prepared from HEK-293 cells stably transfected with h5-HT6. Following centrifugation, membranes were resuspended and incubated for 60 min at room temperature with 1.7 nM [3H]LSD in the presence of increasing concentration of test compounds. Nonspecific binding was defined in the presence of 10 μM clozapine (Tocris, cat. TRK1068). Homogenized HEK-293 membranes expressing the human SERT were incubated in 50 mM Tris-HCl (pH 7.5), 120 mM NaCl, 5 mM KCl with [3H]-citalopram (3 nM) with or without test compounds. Nonspecific binding was determined in the presence of 10 μM fluoxetine. Radioactivity readouts and Ki values were performed as previously described for r5-HT7.",binding,SERT,Ki
+54,Displacement of [3H]Citalopram from human Serotonin transporter by liquid scintillation counting,binding,SERT,Ki
+55,Displacement of [125I]nisoxetine from human NET transfected in human HEK293 cells,binding,NET,IC50
+56,Inhibition concentration against [3H]5-HT uptake by human serotonin transporter in JAR cells,uptake,SERT,IC50
+57,Inhibition of [3H]5-HT uptake at human SERT C109A mutant transfected in HEK cells,uptake,SERT,Ki
+58,Displacement of [3H]-Paroxetine from recombinant human SERT expressed in HEK293 cells,binding,SERT,IC50
+59,Displacement of [3H]WIN35428 from human dopamine transporter stably expressed in HEK293 cells after 30 mins by neurotransmitter transporter uptake assay,conflict,DAT,Ki
+60,Binding affinity towards dopamine transporter using [3H]WIN-35428 as radioligand from rat caudate putamen tissue (low affinity),binding,DAT,Ki
+61,Inhibition of dopamine transporter,unclear,DAT,Ki
+62,Inhibition of [3H]-5-norepinephrine reuptake in human NET expressed in HEK293 cells by microbeta liquid scintillation counting method,uptake,NET,IC50
+63,"Affinity for HC Serotonin transporter determined in vitro by incubating compound and [3H]5-HT with human carcinoma (Jar cells), previously treated with staurosporine",unclear,SERT,Ki
+64,Displacement of [3H]BTCP from human recombinant dopamine transporter expressed in CHO cells measured after 120 mins by scintillation counting method,binding,DAT,IC50
+65,Inhibition of Dopamine transporter (unknown origin),unclear,DAT,IC50
+66,Inhibition of norepinephrine uptake at human NET expressed in HEK cells,uptake,NET,IC50
+67,Ability to inhibit [3H]mazindol binding to cloned human dopamine (DA) transporter; Average of two experiments,binding,DAT,Ki
+68,"DRUGMATRIX: Transporter, Serotonin (5-Hydroxytryptamine) (SERT) radioligand binding (ligand: [3H] Paroxetine)",binding,SERT,Ki
+69,Displacement of [3H]DA from human DAT expressed in HEK293 cells,binding,DAT,IC50
+70,Inhibition of [3H]dopamine reuptake at human DAT expressed in CHO cells after 60 mins by scintillation counting,uptake,DAT,IC50
+71,Selectivity interaction (Radioligand binding assay (MDS Pharma Service)) EUB0000296b SLC6A3,binding,DAT,Ki
+72,Displacement of [3H]WIN35428 from human DAT expressed in HEK cells by radioligand binding assay,binding,DAT,Ki
+73,Inhibition of Norepinephrine transporter (unknown origin),unclear,NET,IC50
+74,Displacement of [3H]imipramine from human 5HT transporter,binding,SERT,Ki
+75,Selectivity interaction (GPCR panel (PDSP screen)) EUB0000209b SLC6A2,unclear,NET,Ki
+76,Inhibition of [3H]serotonin reuptake at human SERT expressed in HEK cells,uptake,SERT,IC50
+77,Inhibition of 5HT uptake at human SERT expressed in human JAR cells,uptake,SERT,IC50
+78,Selectivity interaction (GPCR panel (PDSP screen)) EUB0000295b SLC6A3,unclear,DAT,Ki
+79,Inhibition of [3H]-5-hydroxytryptamine reuptake in human SERT expressed in HEK293 cells by liquid scintillation counting method,uptake,SERT,IC50
+80,Displacement of [3H]nisoxetine from human recombinant norepinephrine transporter expressed in CHO cells measured after 120 mins by scintillation counting method,binding,NET,IC50
+81,Inhibition of [3H]5-HT uptake into human SERT expressing HEK293 cells,uptake,SERT,IC50
+82,Inhibition of NET (unknown origin)-mediated uptake,uptake,NET,IC50
+83,Inhibition of [3H]WIN-35428 uptake in human DAT transfected HEK293 cells,uptake,DAT,Ki
+84,Inhibition of [3H]dopamine reuptake at DAT expressed in HEK293 cells scintillation counting,uptake,DAT,IC50
+85,Displacement of [3H]WIN35428 from human DAT expressed in HEK cells measured after 90 mins by microbeta scintillation counting method,binding,DAT,Ki
+86,Displacement of [125I]-IDAM from SERT transfected in pig LLC-PK1 cells by radioligand competition binding assay,binding,SERT,Ki
+87,Displacement of [125I]N-(3'-iodopropen-2'yl)-2-beta-carbomethoxy-3-beta-(4-chlorophenyl)tropane from DAT expressed in LLCPK1 cells,binding,DAT,Ki
+88,Inhibition of SERT-mediated serotonin uptake in human JAR cells,uptake,SERT,IC50
+89,Inhibition of norepinephrine uptake at human NET expressed in HEK293 cells,uptake,NET,IC50
+90,Inhibition of SERT (unknown origin),unclear,SERT,Ki
+91,Inhibition of human SERT S438T mutant expressed in HEK293 GripTite cells pre-incubated for 5 mins followed by [3H]5-HT addition by [3H]5-HT uptake assay,uptake,SERT,Ki
+92,Inhibition of [3H]WIN-35428 radioligand binding to the Dopamine Transporter in guinea pig striatal membrane,binding,DAT,IC50
+93,Inhibition of [3H] norepinephrine uptake into human NET expressed in HEK293 cells,uptake,NET,IC50
+94,Allosteric modulation at wild-type human SERT site S2 expressed in african green monkey COS7 cells assessed as inhibition of [3H]citalopram dissociation at 30 uM by scintillation counting analysis,unclear,SERT,IC50
+95,Binding affinity towards dopamine transporter (DAT) by using [125I]RTI-55 radioligand,binding,DAT,Ki
+96,Inhibition of re-uptake of [3H]MPP+ at human NET expressed in HEK293 cells preincubated for 5 mins followed by [3H]-dopamine addition measured after 3 min by liquid scintillation counting,uptake,NET,IC50
+97,Displacement of [125I]RTI-55 from human NET expressed in HEK293 cells,binding,NET,Ki
+98,Inhibitory activity against human SERT transfected in HEK293 cells,unclear,SERT,IC50
+99,Displacement of [3H]nisoxetine from human cloned NET receptor expressed in HEK293 cells,binding,NET,Ki
+100,Ability to inhibit [3H]nisoxetine binding to cloned human norepinephrine (NE) transporter,binding,NET,Ki
+101,In vitro binding inhibition towards human serotonin transporter,binding,SERT,Ki
+102,Displacement of radiolabeled imipramine from human SERT,binding,SERT,Ki
+103,Displacement of [3H]imipramine from human SERT expressed in CHO cells,binding,SERT,Ki
+104,Inhibition of [3H]-NE uptake in human norepinephrine transporter expressed in HEK293 cells by scintillation counting,uptake,NET,IC50
+105,Inhibition of [3H]serotonin uptake at human SERT expressed in CHO cells after 10 min by scintillation counting,uptake,SERT,IC50
+106,Displacement of [125I]-INXT from NET transfected in pig LLC-PK1 cells by radioligand competition binding assay,binding,NET,Ki
+107,Inhibition of human DAT in HEK293 cells assessed as inhibition of [3H]dopamine uptake,uptake,DAT,IC50
+108,Inhibition of human SERT expressed in CHO-K1 cells assessed as inhibition of [3H]-5-hydroxytryptamine reuptake measured after 20 mins by Microscintillation counting analysis,uptake,SERT,IC50
+109,Binding affinity to human serotonin 5-HT transporter by radioligand displacement assay,binding,SERT,IC50
+110,Displacement of [3H]paroxetine from 5-HTT,binding,SERT,Ki
+111,Binding affinity for serotonin transporter expressed in LCK PK1 cells,binding,SERT,Ki
+112,Displacement of [3H] dopamine from DAT in HEK293 cells incubated for 1 hr by topcount plate reader analysis,binding,DAT,IC50
+113,Inhibition of human recombinant 5HT transporter,unclear,SERT,IC50
+114,"Binding Assay: In order to evaluate the relative affinity of the various compounds at the NE, DA and 5HT transporters, HEK293E cell lines were developed to express each of the three human transporters. cDNAs containing the complete coding regions of each transporter were amplified by PCR from human brain libraries. The cDNAs contained in pCRII vectors were sequenced to verify their identity and then subcloned into an Epstein-Barr virus based expression plasmid (Shen et al., Gene 156:235-239 (1995), which is hereby incorporated by reference in its entirety). This plasmid containing the coding sequence for one of the human transporters was transfected into HEK93E cells. Successful transfection was verified by the ability of known reuptake blockers to inhibit the uptake of tritiated NE, DA or 5HT.For binding, cells were homogenized, centrifuged, and then resuspended in incubation buffer (5 mM Tris, 120 mM NaCl, 5 mM KCl, pH 7.4). Then, the appropriate radioligand was added.",conflict,DAT,Ki
+115,Displacement of [125I]RTI-55 from human SERT expressing HEK293 cells,binding,SERT,Ki
+116,Binding affinity at human noradrenaline transporter,binding,NET,Ki
+117,"Radioligand Binding Assay: Compounds were dissolved in 100% DMSO at a concentration 100 times the desired highest assay concentration, serially diluted 1:3 in 100% DMSO, and 0.4 ul/well of each solution was dispensed to a Nunc polypropylene, round bottom, 384-well plate. 100% inhibition is defined with 0.4 ul/well of 1 mM GBR-12935 dissolved in DMSO. 20 ul/well of a 2x membrane preparation (12.5 ug/ml in 30 mM sodium phosphate buffer, pH 7.9 at 4 C.) and 20 ul/well of a 2x radioligand solution (250 pM [125I]RTI-55 in 30 mM sodium phosphate buffer, pH 7.9 at 4 C.) were added to the well and the reaction incubated for 1 hour at room temperature. The contents of the assay plate were then transferred to a Millipore MultiscreenHTS GF/B filter plate which was pretreated with 0.5% PEI for at least one hour. The plate was vacuum-filtered and washed with 7 washes of 100 ul/well 50 mM Tris-Cl, pH 7.5, 120 mM NaCl, 5 mM KCl chilled to 4 C.",binding,DAT,IC50
+118,Inhibition of human recombinant dopamine transporter,unclear,DAT,IC50
+119,Displacement of [3H]WIN-from cocaine site of dopamine transporter,binding,DAT,Ki
+120,Displacement of [3H]-Nisoxetine from NET expressed in HEK293 cells by scintillation proximity assay,binding,NET,Ki
+121,Inhibition of [3H]NA uptake at human NA transporter expressed in HEK293 cells,uptake,NET,IC50
+122,Antagonist activity at serotonin transporter (unknown origin) by PDSP assay,unclear,SERT,Ki
+123,Inhibition of [3H]5-HT reuptake in HEK293 cells expressing human serotonin transporter,uptake,SERT,IC50
+124,Inhibition of [3H]5-HT uptake at human 5HTT expressed in HEK293 cells,uptake,SERT,IC50
+125,Displacement of [3H]-Citalopram from human SERT expressed in human HEK293 cells after 1 hr by scintillation counting analysis,binding,SERT,Ki
+126,Displacement of [3H]paroxetine from human 5HTT,binding,SERT,Ki
+127,Inhibitory activity against human- serotonin reuptake transmitter using [3H]-citalopram as a radioligand,conflict,SERT,IC50
+128,Binding affinity to NOR transporter,binding,NET,Ki
+129,Inhibition of 5-hydroxy[3H]tryptamine uptake at human SERT expressed in African green monkey COS7 cells incubated for 10 mins prior to radioligand addition measured after 5 mins by scintillation counting analysis,conflict,SERT,Ki
+130,Inhibition of 5-HTT (unknown origin) expressed in HEK cells incubated for 30 mins by fluorescence based assay,unclear,SERT,IC50
+131,Selectivity interaction (GPCR panel (PDSP screen)) EUB0000740a SLC6A3,unclear,DAT,Ki
+132,Inhibition of [3H]Nisoxetine uptake in human noradrenaline transporter transfected HEK293 cells,uptake,NET,Ki
+133,In vitro affinity determined using [3H]WIN-35428 in murine kidney cells transfected with human dopamine transporter (DAT),unclear,DAT,Ki
+134,Compound was tested for inhibiting reuptake of [3H]- NE by norepinephrine transporter,uptake,NET,Ki
+135,Binding affinity to human SERT T497A mutant expressed in African green monkey COS7 cells assessed as inhibition of [3H]-serotonin uptake after 3 mins by beta-scintillation counting analysis,conflict,SERT,Ki
+136,Antagonist activity at human DAT receptor by scintillation counting method,unclear,DAT,IC50
+137,Displacement of [3H]nisoxetine from human recombinant NET after 1.5 hrs by microbeta scintillation counting analysis,binding,NET,Ki
+138,Displacement of [125I]RTI-55 from human recombinant DAT expressed in HEK293 cells,binding,DAT,Ki
+139,Displacement of [3H]-nisoxetine from human NET expressed in HEK cell membranes,binding,NET,Ki
+140,Selectivity interaction (GPCR panel (PDSP screen)) EUB0000303b SLC6A3,unclear,DAT,Ki
+141,Inhibition of norepinephrine reuptake at human NET expressed in HEK293 cells after 15 mins by fluorescence neurotransmitter transporter assay,uptake,NET,IC50
+142,Inhibition of human recombinant serotonin transporter,unclear,SERT,IC50
+143,Inhibition of dopamine reuptake at human recombinant dopamine transporter,uptake,DAT,IC50
+144,Inhibition of [3H]5-HT uptake at SERT,uptake,SERT,IC50
+145,Binding constant for [3H]dopamine uptake was calculated from the Cheng-Prusoff relationship,conflict,DAT,Ki
+146,Binding affinity for serotonin transporter using [125I]RTI-55,binding,SERT,Ki
+147,Inhibition of [3H] dopamine uptake into human DAT expressed in HEK293 cells,uptake,DAT,IC50
+148,Inhibition of human SERT expressed in human JAR cells,unclear,SERT,IC50
+149,Inhibition of [3H]-5-HT uptake evaluated at the Serotonin transporter,uptake,SERT,Ki
+150,"Functional Uptake Assay (hDAT): Inhibition of human dopamine reuptake transporter was assayed using the recombinant human dopamine transporter expressed in either CHO-K1 or HEK293 cells using a published method (Pristupa, Z. B. et al., Mol. Pharmacol. 45: 125-135, 1994). Either CHO-K1 or HEK293 cells expressing human recombinant dopamine transporter were plated before the assay. Test compound and/or vehicle was preincubated with cells in modified HEPES buffer pH 7.1 or pH 7.4 for 20 minutes at 18 to 25° C. and 50 nM [3H]dopamine was then added for an additional timed incubation period (10 to 30 minutes). After washing the cells to remove [3H]dopamine not internalized, the cells were lysed, and the amount of tritium in the lysate was measured using a liquid scintillation counter to determine [3H]dopamine uptake. Non-specific binding of tritium was measured in a control reaction containing 10 uM nomifensine, and was subtracted from the counts for assays to correct for non-specific binding of tritium. Reduction of [3H]dopamine uptake by 50 percent or more (50%) relative to an uninhibited control reaction indicates significant inhibitory activity. Compounds were screened at 10, 1, 0.1, 0.01 and 0.001 uM. The reference compound for the assay was nomifensine, for which the IC50 value of 11 nM was obtained in a typical experiment.",conflict,DAT,IC50
+151,"Radioligand Binding Assay: The compounds were evaluated using well established radioligand binding assays protocols (Galli, A. et al., J. Exp. Biol. 1995, 198, 2197-2212; Giros, B. et al., Trends Pharmcol. Sci. 1993, 14, 43-49; Gu, H. et al., J. Biol. Chem. 1994, 269(10), 7124-7130; Shearman, L. P. et al, Am. J. Physiol., 1998, 275 (6 Pt 1), C1621-1629; Wolf, W. A. et al., J. Biol. Chem. 1992, 267(29), 20820-20825). The human recombinant transporter proteins dopamine (DAT), norepinephrine (NET) and serotonin (SERT) were selected for the in vitro assays. The radioligand binding assays were carried out at 11 different test concentrations 0.1 nm to 1 μM.",binding,DAT,Ki
+152,Displacement of [3H]citalopram from SERT,binding,SERT,Ki
+153,Selectivity interaction (GPCR panel (PDSP screen)) EUB0000753a SLC6A3,unclear,DAT,Ki
+154,Displacement of [125I]RTI55 from human SERT transfected in COS1 cells,binding,SERT,Ki
+155,Inhibition of [3H]5HT reuptake at human SERT expressed in HEK293 cells,uptake,SERT,IC50
+156,Inhibition constant against norepinephrine transporter,unclear,NET,Ki
+157,Displacement of [3H]WIN-35428 from dopamine transporter,binding,DAT,IC50
+158,Displacement of [3H]paroxetine from human cloned 5HTT receptor transfected in CHO cells,binding,SERT,Ki
+159,Displacement of [3H]paroxetine from SERT,binding,SERT,Ki
+160,Displacement of [125I]RTI-55 from human recombinant NET expressed in HEK293 cells by scintillation counting,binding,NET,Ki
+161,Displacement of [3H]nisoxetine from human NET expressed in HEK293 cells measured after 30 mins,binding,NET,Ki
+162,Displacement of [3H]citalopram from human SERT expressed in HEK293 cell membranes after 1 hr by liquid scintillation counting method,binding,SERT,Ki
+163,Inhibition of norepinephrine uptake at human NET in human HEK293 cells,uptake,NET,IC50
+164,Displacement of [125I]RTI55 from human recombinant norepinephrine transporter expressed in MDCK cells after 3 hrs,binding,NET,Ki
+165,"Inhibition of 2,5,6-[3H]-dopamine uptake at human NET expressed in African green monkey COS7 cells incubated for 10 mins prior to radioligand addition measured after 5 mins by scintillation counting analysis",conflict,NET,Ki
+166,Inhibition of [3H]-NE uptake evaluated at the monoamine transporter (NET),uptake,NET,Ki
+167,Displacement of [125I]RTI-55 from human Norepinephrine transporter expressed in HEK293 cells,binding,NET,IC50
+168,Compound was evaluated for its inhibitory activity against the Serotonin transporter,unclear,SERT,Ki
+169,Binding affinity to wild type human DAT expressed in African green monkey COS7 cells assessed as inhibition of [3H]-dopamine uptake after 5 mins by beta-scintillation counting analysis,conflict,DAT,Ki
+170,Displacement of [3H]imipramine from human recombinant 5HT transporter expressed in CHO cells measured after 60 mins by scintillation counting method,binding,SERT,IC50
+171,Inhibitory activity against [3H]-Dopamine uptake from Dopamine transporter in rat caudate putamen tissue,uptake,DAT,IC50
+172,Inhibition of radiolabeled noradrenaline reuptake at human NET expressed in HEK293 cells,uptake,NET,IC50
+173,Inhibition of human recombinant SERT expressed in HEK293 cells assessed as inhibition of [3H]5HT reuptake,uptake,SERT,IC50
+174,"Binding Assay: NET: Human norepinephrine transporter (NET) enriched membranes (5 μg) were incubated with 5 nM of radiolabeled [3H]-Nisoxetin in assay buffer containing 50 mM Tris-HCl, 120 mM NaCl, 5 mM KCl, pH 7.4.NSB (non specific binding) was measured by adding 1 μM. After 60 min incubation at 4° C., binding reaction was terminated by filtering through Multiscreen GF/C (Millipore) presoaked in 0.5% polyethyleneimine in Vacuum Manifold Station, followed by 3 washes with ice-cold filtration buffer containing 50 mM Tris-HCl, 0.9% NaCl, pH 7.4.Filter plates were dried at 60° C. for 1 hour and 30 μl of scintillation cocktail were added to each well before radioactivity reading.",binding,NET,Ki
+175,Inhibition of [3H]dopamine uptake from wild type human DAT expressed in COS-7 cells preincubated for 30 mins followed by [3H]dopamine addition and measured after 5 mins by beta scintillation counting analysis,conflict,DAT,Ki
+176,Inhibition of [3H]norepinephrine reuptake at human NET expressed in CHO cells after 45 mins by scintillation counting,uptake,NET,IC50
+177,Inhibition of human NET expressed in HEK cells assessed as reduction of [3H]-NE uptake preincubated for 10 mins followed by [3H]5-HT addition measured after 10 mins by scintillation counting method,uptake,NET,IC50
+178,Inhibition of human recombinant norepinephrine transporter,unclear,NET,IC50
+179,Binding affinity to dopamine transporter,binding,DAT,Ki
+180,Displacement of [3H]Citalopram from human cloned SERT receptor expressed in HEK293 cells,binding,SERT,Ki
+181,Inhibition of human SERT receptor expressed in human HEK293 cells assessed as inhibition of substrate transport measured after 1 hr by flourescence based plate reader assay,unclear,SERT,IC50

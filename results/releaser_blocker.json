@@ -1,0 +1,20 @@
+{
+  "classification": {
+    "blocker": 81
+  },
+  "offset_by_class": {
+    "blocker": {
+      "n": 81,
+      "median": 0.5399999999999991,
+      "mean": 0.5087654320987655,
+      "sd": 0.6554094764268545,
+      "ci_median": [
+        0.39000000000000057,
+        0.6699999999999999
+      ],
+      "wilcoxon_p": 1.2017002730644352e-08
+    }
+  },
+  "route_a_compounds": [],
+  "n_records_scanned": 785
+}

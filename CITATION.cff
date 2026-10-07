@@ -1,0 +1,50 @@
+# Citation metadata. GitHub reads this file and offers a "Cite this repository"
+# button; Zenodo reads it when it archives a release.
+#
+# NOTHING TO FILL IN unless you have an ORCID.
+#
+# If you do, uncomment the orcid line below and put it there. It is commented out
+# rather than removed because a placeholder ORCID is worse than none: a wrong one
+# resolves to somebody else.
+#
+# date-released is the day this repository was first pushed. Change it if you push on
+# a different day.
+#
+# The DOI below is the Zenodo record for this deposit. Once the record is published,
+# Zenodo also shows a concept DOI under "Cite all versions"; if you deposit a second
+# version later, swap that one in here so the citation never points at a stale release.
+#
+# An email address is optional here and this file is public, so none is included.
+cff-version: 1.2.0
+message: If you use this benchmark or these scripts, please cite the article below.
+type: software
+title: >-
+  Censoring-aware benchmark and validation diagnostics for human monoamine
+  transporter activity prediction
+abstract: >-
+  Curated benchmark of 2,849 compounds with censoring-aware DAT/NET/SERT activity
+  labels, an assay-modality labelling of 14,386 human monoamine transporter records,
+  the radioligand stratification of the binding-versus-functional potency offset, and
+  the scripts that reproduce every number in the accompanying article.
+authors:
+  - family-names: Sahin
+    given-names: Selim Emin
+    affiliation: >-
+      Departments of Chemistry and Neuroscience, The University of Texas at Austin
+  # orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 1.0.0
+date-released: "2026-10-07"
+license: MIT
+repository-code: "https://github.com/SelimEmin/mat-benchmark"
+keywords:
+  - QSAR
+  - external validation
+  - monoamine transporters
+  - assay heterogeneity
+  - censored data
+  - cheminformatics
+doi: "10.5281/zenodo.23144306"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23144306"
+    description: Zenodo record for this deposit

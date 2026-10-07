@@ -1,0 +1,57 @@
+{
+  "DAT": {
+    "n": 100,
+    "median": -0.17999999999999972,
+    "ci95": [
+      -0.2999999999999998,
+      -0.07000000000000028
+    ],
+    "wilcoxon_p": 0.00014110085664896895,
+    "n_five_papers": 86,
+    "median_five_papers": -0.28000000000000025,
+    "n_eshleman": 16,
+    "n_overlap": 2,
+    "overlap_names": [
+      "Cocaine",
+      "Mazindol"
+    ]
+  },
+  "NET": {
+    "n": 89,
+    "median": 0.6000000000000005,
+    "ci95": [
+      0.46999999999999975,
+      0.7481880270062005
+    ],
+    "wilcoxon_p": 2.912124206266645e-12,
+    "n_five_papers": 75,
+    "median_five_papers": 0.5499999999999998,
+    "n_eshleman": 16,
+    "n_overlap": 2,
+    "overlap_names": [
+      "Cocaine",
+      "Mazindol"
+    ]
+  },
+  "SERT": {
+    "n": 80,
+    "median": -0.04787874528033747,
+    "ci95": [
+      -0.1299999999999999,
+      0.10999999999999943
+    ],
+    "wilcoxon_p": 0.3790203746502119,
+    "n_five_papers": 66,
+    "median_five_papers": -0.08999999999999986,
+    "n_eshleman": 16,
+    "n_overlap": 2,
+    "overlap_names": [
+      "Cocaine",
+      "Mazindol"
+    ]
+  },
+  "kruskal": {
+    "H": 91.54219041046066,
+    "p": 1.3239327387163026e-20
+  }
+}

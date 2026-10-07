@@ -1,0 +1,15 @@
+### Table 4 — Can each external set predict itself?
+
+| set | target | n | variance | range | LOO Ridge | LOO kNN(3) | LOO LightGBM | best within-set | transferred | ratio | verdict |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Stalberga 2026 | DAT | 46 | 0.80 | 5.3–9.0 | 0.453 | 0.381 | 0.376 | 0.453 | 0.454 | 1.0× | ambiguous |
+| Stalberga 2026 | NET | 46 | 0.57 | 4.6–7.6 | 0.200 | 0.128 | 0.241 | 0.241 | 0.079 | 3.0× | transfer |
+| Stalberga 2026 | SERT | 46 | 0.37 | 4.6–7.1 | 0.132 | 0.033 | 0.270 | 0.270 | 0.012 | 22.8× | transfer |
+| PDSP / BindingDB | DAT | 43 | 0.71 | 5.0–7.8 | 0.328 | 0.478 | 0.480 | 0.480 | 0.371 | 1.3× | ambiguous |
+| PDSP / BindingDB | NET | 43 | 0.93 | 5.1–8.9 | 0.424 | 0.356 | 0.295 | 0.424 | 0.192 | 2.2× | transfer |
+| PDSP / BindingDB | SERT | 43 | 1.60 | 5.4–9.9 | 0.405 | 0.203 | 0.334 | 0.405 | 0.375 | 1.1× | ambiguous |
+| Cui et al. 2026 | DAT | 11 | 0.37 | 4.2–6.4 | 0.074 | 0.172 | 0.286 | 0.286 | 0.189 | 1.5× | ambiguous |
+| Cui et al. 2026 | NET | 19 | 1.24 | 4.8–8.6 | 0.009 | 0.011 | 0.290 | 0.290 | 0.328 | 0.9× | ambiguous |
+| Cui et al. 2026 | SERT | 18 | 0.77 | 5.6–8.9 | 0.184 | 0.046 | 0.270 | 0.270 | 0.094 | 2.9× | transfer |
+
+*Leave-one-out within the set, same features as the main model. `transferred` is the production model's r² on the same compounds. LOO within a single-paper series is generous — a held-out compound usually has a close analogue among the rest — so these are an UPPER BOUND on learnability, which is the right bound for asking whether the data contains signal at all. No cell is data-limited. The two worst cells in the paper, Stalberga NET and SERT, predict themselves 3× and 23× better than the transferred model does. Source: `within_external.json`.*

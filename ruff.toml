@@ -1,0 +1,40 @@
+# Lint configuration for the deposited analysis scripts.
+#
+# These are analysis scripts, not a library: they are written compactly on purpose so
+# that a reader can see a whole procedure on one screen. Three stylistic rules are
+# therefore disabled globally rather than mechanically satisfied, because applying them
+# would make the code longer without making it clearer:
+#
+#   E701/E702  a guard clause or a counter update on the same line as its test
+#   E401       grouped stdlib imports on one line
+#
+# Everything else is enforced on the current-round code -- the scripts at the repository
+# root, in figgen/ and in repro/ -- including every pyflakes check (F), which is what
+# catches dead imports, unused variables and undefined names.
+#
+# src/ holds the earlier-round scripts. They are kept byte-for-byte as they were run,
+# because the manuscript's Declarations enumerate the errors found during development and
+# that audit trail is only worth something if the code behind it is unedited. They are
+# still checked for correctness; four stylistic rules are waived for them, and the
+# waivers are listed by rule and by file rather than as a blanket exclusion so that a
+# reader can see exactly what is not being enforced and where.
+
+line-length = 100
+
+[lint]
+select = ["E", "F", "W"]
+ignore = ["E701", "E702", "E401"]
+
+[lint.per-file-ignores]
+# Earlier-round scripts, retained unmodified. E402 is the pattern of a script with a
+# second phase after a printed results block; E741 is `l` for a matplotlib line handle
+# and `I` for an intensity column; E501 is a long literal or a long f-string header.
+"src/*.py" = ["E402", "E501", "E741"]
+
+# These three reuse the helpers of a sibling script by exec-ing its header rather than
+# importing it, so the names they rely on are injected at run time and ruff -- which does
+# not follow exec -- reports every one as undefined. The pattern is the reason, not a
+# defect; see the note in src/README.md about what these three need in order to run.
+"src/internal_leak_check.py" = ["E402", "E501", "E741", "F821"]
+"src/modality_subsample.py"  = ["E402", "E501", "E741", "F821"]
+"src/range_swap_ctrl.py"     = ["E402", "E501", "E741", "F821"]

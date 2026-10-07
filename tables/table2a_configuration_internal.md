@@ -1,0 +1,12 @@
+### Table 2a — Improving the model: internal effect of the configuration changes
+
+| target | answer key | published config | ± SD | production config | ± SD  | Δ internal | seeds won | p |
+|---|---|---|---|---|---|---|---|---|
+| DAT | binding Kᵢ key | 0.399 | 0.019 | 0.556 | 0.015 | +0.157 | 20/20 | 5e-22 |
+| DAT | uptake IC₅₀ key | 0.423 | 0.023 | 0.557 | 0.014 | +0.134 | 20/20 | 5e-20 |
+| NET | binding Kᵢ key | 0.418 | 0.010 | 0.520 | 0.014 | +0.101 | 20/20 | 4e-17 |
+| NET | uptake IC₅₀ key | 0.409 | 0.013 | 0.502 | 0.010 | +0.093 | 20/20 | 9e-18 |
+| SERT | binding Kᵢ key | 0.192 | 0.013 | 0.474 | 0.016 | +0.281 | 20/20 | 1e-26 |
+| SERT | uptake IC₅₀ key | 0.319 | 0.015 | 0.524 | 0.013 | +0.204 | 20/20 | 2e-23 |
+
+*Production configuration drops the all-three-transporter intersection requirement for training and adds a binary assay-modality feature. 20 seeds × 5 scaffold folds, identical folds for both arms, paired t-test. Source: `production_cv.json`.*

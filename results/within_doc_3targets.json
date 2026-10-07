@@ -1,0 +1,160 @@
+{
+  "chembl": {
+    "DAT": {
+      "pooled_n": 89,
+      "pooled_median": -0.28000000000000025,
+      "within_n": 86,
+      "within_median": -0.28000000000000025,
+      "within_ci95": [
+        -0.3799999999999999,
+        -0.15500000000000025
+      ],
+      "within_wilcoxon_p": 2.1264125479287555e-06,
+      "documents_ge5": 5,
+      "documents": [
+        {
+          "document_chembl_id": "CHEMBL1138144",
+          "n": 33,
+          "median": -0.03000000000000025
+        },
+        {
+          "document_chembl_id": "CHEMBL1146223",
+          "n": 19,
+          "median": -0.4900000000000002
+        },
+        {
+          "document_chembl_id": "CHEMBL1135775",
+          "n": 13,
+          "median": 0.020000000000000462
+        },
+        {
+          "document_chembl_id": "CHEMBL1132179",
+          "n": 11,
+          "median": -0.2400000000000002
+        },
+        {
+          "document_chembl_id": "CHEMBL1136239",
+          "n": 8,
+          "median": -0.5099999999999998
+        }
+      ]
+    },
+    "NET": {
+      "pooled_n": 81,
+      "pooled_median": 0.5399999999999991,
+      "within_n": 75,
+      "within_median": 0.5499999999999998,
+      "within_ci95": [
+        0.39999999999999947,
+        0.6899999999999995
+      ],
+      "within_wilcoxon_p": 1.0316128235604214e-09,
+      "documents_ge5": 5,
+      "documents": [
+        {
+          "document_chembl_id": "CHEMBL1138144",
+          "n": 29,
+          "median": 0.9900000000000002
+        },
+        {
+          "document_chembl_id": "CHEMBL1146223",
+          "n": 17,
+          "median": 0.3099999999999996
+        },
+        {
+          "document_chembl_id": "CHEMBL1135775",
+          "n": 13,
+          "median": 1.12
+        },
+        {
+          "document_chembl_id": "CHEMBL1132179",
+          "n": 10,
+          "median": 0.15000000000000036
+        },
+        {
+          "document_chembl_id": "CHEMBL1136239",
+          "n": 8,
+          "median": 0.46999999999999975
+        }
+      ]
+    },
+    "SERT": {
+      "pooled_n": 71,
+      "pooled_median": -0.08000000000000007,
+      "within_n": 66,
+      "within_median": -0.08999999999999986,
+      "within_ci95": [
+        -0.21999999999999975,
+        -0.010000000000000675
+      ],
+      "within_wilcoxon_p": 0.05509821348582198,
+      "documents_ge5": 4,
+      "documents": [
+        {
+          "document_chembl_id": "CHEMBL1138144",
+          "n": 24,
+          "median": 0.1849999999999996
+        },
+        {
+          "document_chembl_id": "CHEMBL1146223",
+          "n": 17,
+          "median": -0.2599999999999998
+        },
+        {
+          "document_chembl_id": "CHEMBL1135775",
+          "n": 13,
+          "median": -0.1299999999999999
+        },
+        {
+          "document_chembl_id": "CHEMBL1132179",
+          "n": 11,
+          "median": -0.33999999999999986
+        }
+      ]
+    }
+  },
+  "eshleman": {
+    "DAT": {
+      "blocker_n": 16,
+      "blocker_median": 0.2787536009528289,
+      "blocker_ci95": [
+        0.07918124604762482,
+        0.3294824213322175
+      ],
+      "releaser_n": 14,
+      "releaser_median": 1.359823059610399
+    },
+    "NET": {
+      "blocker_n": 16,
+      "blocker_median": 0.752031441339346,
+      "blocker_ci95": [
+        0.6989700043360189,
+        0.9138138523837167
+      ],
+      "releaser_n": 15,
+      "releaser_median": 2.1389339402569236
+    },
+    "SERT": {
+      "blocker_n": 16,
+      "blocker_median": 0.17609125905568124,
+      "blocker_ci95": [
+        -0.040958607678906384,
+        0.3010299956639812
+      ],
+      "releaser_n": 14,
+      "releaser_median": 1.536088172239483
+    }
+  },
+  "net_excess": {
+    "ChEMBL within-document": 0.7349999999999999,
+    "Eshleman blockers": 0.5246090113350909
+  },
+  "kruskal_within": {
+    "H": 77.63493487055862,
+    "p": 1.3860793436355128e-17
+  },
+  "kruskal_eshleman_blockers": {
+    "H": 26.032118291555634,
+    "p": 2.2243203586860268e-06
+  }
+}

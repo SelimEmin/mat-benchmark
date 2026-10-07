@@ -1,0 +1,92 @@
+[
+ {
+  "set": "Stalberga 2026",
+  "modality": "uptake",
+  "target": "DAT",
+  "n": 46,
+  "r2_pooled": 0.4842324515579152,
+  "r2_mod": 0.3050007832686632,
+  "rmse_pooled": 1.1303681813577544,
+  "rmse_mod": 1.151442037278799
+ },
+ {
+  "set": "Stalberga 2026",
+  "modality": "uptake",
+  "target": "NET",
+  "n": 46,
+  "r2_pooled": 0.0834837107196181,
+  "r2_mod": 0.05838533211099899,
+  "rmse_pooled": 0.7569330994226334,
+  "rmse_mod": 0.8380351827956355
+ },
+ {
+  "set": "Stalberga 2026",
+  "modality": "uptake",
+  "target": "SERT",
+  "n": 46,
+  "r2_pooled": 0.05997940215804152,
+  "r2_mod": 0.05650497220868812,
+  "rmse_pooled": 0.6503694184230461,
+  "rmse_mod": 0.6629511172169945
+ },
+ {
+  "set": "PDSP / BindingDB",
+  "modality": "binding",
+  "target": "DAT",
+  "n": 43,
+  "r2_pooled": 0.23767216688990772,
+  "r2_mod": 0.10159311852720675,
+  "rmse_pooled": 0.7286952628849496,
+  "rmse_mod": 0.8398278679226773
+ },
+ {
+  "set": "PDSP / BindingDB",
+  "modality": "binding",
+  "target": "NET",
+  "n": 43,
+  "r2_pooled": 0.18855773943143464,
+  "r2_mod": 0.05481341810548386,
+  "rmse_pooled": 0.9524663111136634,
+  "rmse_mod": 1.2025846295651925
+ },
+ {
+  "set": "PDSP / BindingDB",
+  "modality": "binding",
+  "target": "SERT",
+  "n": 43,
+  "r2_pooled": 0.3536900601679348,
+  "r2_mod": 0.3961573726943869,
+  "rmse_pooled": 1.1206577197429763,
+  "rmse_mod": 1.0305143996141704
+ },
+ {
+  "set": "Cui et al. 2026",
+  "modality": "uptake",
+  "target": "DAT",
+  "n": 11,
+  "r2_pooled": 0.04890780174938965,
+  "r2_mod": 0.02032644512450994,
+  "rmse_pooled": 0.8748454094570749,
+  "rmse_mod": 0.6959122956135165
+ },
+ {
+  "set": "Cui et al. 2026",
+  "modality": "uptake",
+  "target": "NET",
+  "n": 19,
+  "r2_pooled": 0.5323853642258262,
+  "r2_mod": 0.024638425982656226,
+  "rmse_pooled": 0.9521722816820201,
+  "rmse_mod": 1.184090664786228
+ },
+ {
+  "set": "Cui et al. 2026",
+  "modality": "uptake",
+  "target": "SERT",
+  "n": 18,
+  "r2_pooled": 0.13075570454089858,
+  "r2_mod": 0.4985355106489382,
+  "rmse_pooled": 0.9756518335602061,
+  "rmse_mod": 1.0122587284401505
+ }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "target": "DAT",
+    "var_train": 1.0986651782865846,
+    "var_ext": 0.7994775222415299,
+    "ceil_internal": 0.82,
+    "achieved_ext": 0.459,
+    "ceil_ext::aggregation only (0.127)": 0.9798255741389972,
+    "ceil_ext::single measurement (0.212)": 0.9437832850209615,
+    "ceil_ext::modality pooled": 0.7523069823842092,
+    "frac_of_ext_ceiling": 0.6101232751360867
+  },
+  {
+    "target": "NET",
+    "var_train": 1.1700327987543604,
+    "var_ext": 0.5732539470413708,
+    "ceil_internal": 0.633,
+    "achieved_ext": 0.015,
+    "ceil_ext::aggregation only (0.127)": 0.9718641274373363,
+    "ceil_ext::single measurement (0.212)": 0.9215984464965987,
+    "ceil_ext::modality pooled": 0.25159695416970584,
+    "frac_of_ext_ceiling": 0.05961916371166512
+  },
+  {
+    "target": "SERT",
+    "var_train": 1.4974302367665229,
+    "var_ext": 0.3688781260417628,
+    "ceil_internal": 0.838,
+    "achieved_ext": 0.058,
+    "ceil_ext::aggregation only (0.127)": 0.9562755315066475,
+    "ceil_ext::single measurement (0.212)": 0.8781603005787564,
+    "ceil_ext::modality pooled": 0.3437832636012834,
+    "frac_of_ext_ceiling": 0.16871094710203186
+  }
+]

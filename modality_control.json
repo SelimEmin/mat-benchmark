@@ -1,0 +1,92 @@
+[
+ {
+  "set": "Stalberga 2026",
+  "target": "DAT",
+  "n_mod": 1183,
+  "n_pool": 2816,
+  "r2_pool_full": 0.4842324515579152,
+  "r2_pool_sized": 0.39283867859211913,
+  "r2_pool_sized_sd": 0.12949208309652063,
+  "r2_mod": 0.3050007832686632
+ },
+ {
+  "set": "Stalberga 2026",
+  "target": "NET",
+  "n_mod": 1696,
+  "n_pool": 3254,
+  "r2_pool_full": 0.0834837107196181,
+  "r2_pool_sized": 0.06764268342589226,
+  "r2_pool_sized_sd": 0.04071999750807355,
+  "r2_mod": 0.05838533211099899
+ },
+ {
+  "set": "Stalberga 2026",
+  "target": "SERT",
+  "n_mod": 1738,
+  "n_pool": 4574,
+  "r2_pool_full": 0.05997940215804152,
+  "r2_pool_sized": 0.05620916018103705,
+  "r2_pool_sized_sd": 0.02221723103832116,
+  "r2_mod": 0.05650497220868812
+ },
+ {
+  "set": "PDSP / BindingDB",
+  "target": "DAT",
+  "n_mod": 1917,
+  "n_pool": 2816,
+  "r2_pool_full": 0.23767216688990772,
+  "r2_pool_sized": 0.18515682404928258,
+  "r2_pool_sized_sd": 0.07254173857227166,
+  "r2_mod": 0.10159311852720675
+ },
+ {
+  "set": "PDSP / BindingDB",
+  "target": "NET",
+  "n_mod": 1916,
+  "n_pool": 3254,
+  "r2_pool_full": 0.18855773943143464,
+  "r2_pool_sized": 0.17753268055990598,
+  "r2_pool_sized_sd": 0.03566849167649673,
+  "r2_mod": 0.05481341810548386
+ },
+ {
+  "set": "PDSP / BindingDB",
+  "target": "SERT",
+  "n_mod": 3069,
+  "n_pool": 4574,
+  "r2_pool_full": 0.3536900601679348,
+  "r2_pool_sized": 0.32608883993233756,
+  "r2_pool_sized_sd": 0.041981791500912635,
+  "r2_mod": 0.3961573726943869
+ },
+ {
+  "set": "Cui et al. 2026",
+  "target": "DAT",
+  "n_mod": 1183,
+  "n_pool": 2816,
+  "r2_pool_full": 0.04890780174938965,
+  "r2_pool_sized": 0.04462281647554616,
+  "r2_pool_sized_sd": 0.058660217327410044,
+  "r2_mod": 0.02032644512450994
+ },
+ {
+  "set": "Cui et al. 2026",
+  "target": "NET",
+  "n_mod": 1696,
+  "n_pool": 3254,
+  "r2_pool_full": 0.5323853642258262,
+  "r2_pool_sized": 0.26327106919732807,
+  "r2_pool_sized_sd": 0.13414178649271774,
+  "r2_mod": 0.024638425982656226
+ },
+ {
+  "set": "Cui et al. 2026",
+  "target": "SERT",
+  "n_mod": 1738,
+  "n_pool": 4574,
+  "r2_pool_full": 0.13075570454089858,
+  "r2_pool_sized": 0.15983322790702342,
+  "r2_pool_sized_sd": 0.13836307460391037,
+  "r2_mod": 0.4985355106489382
+ }
+]

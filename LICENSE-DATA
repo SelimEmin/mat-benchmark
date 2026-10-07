@@ -1,0 +1,19 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Selim Emin Sahin
+
+The data files in this deposit -- the curated benchmark, the assay-modality
+labelling, the radioligand strata, the gold-standard annotation, the external
+sets and all derived tables (.csv, .json, .npz, .tsv) -- are licensed under the
+Creative Commons Attribution 4.0 International License.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The code in this deposit (.py, .sh) is licensed separately under the MIT
+License; see LICENSE.
+
+ATTRIBUTION OF UPSTREAM SOURCES. The benchmark is derived from ChEMBL, which is
+released by the European Bioinformatics Institute under CC BY-SA 3.0, and from
+measurements published in the primary literature cited in the manuscript. The
+PDSP/BindingDB slice is redistributed from BindingDB. Users of this deposit
+should cite those sources as well as this one.

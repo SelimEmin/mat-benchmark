@@ -1,0 +1,110 @@
+[
+  {
+    "evaluation": "Internal (scaffold CV)",
+    "target": "DAT",
+    "n": 2849,
+    "var_ratio": 1.0,
+    "R2": 0.584,
+    "ceiling": 0.819813466787989,
+    "pct": 71.23571686228807
+  },
+  {
+    "evaluation": "Internal (scaffold CV)",
+    "target": "NET",
+    "n": 2849,
+    "var_ratio": 1.0,
+    "R2": 0.501,
+    "ceiling": 0.6333119658119657,
+    "pct": 79.10793211646818
+  },
+  {
+    "evaluation": "Internal (scaffold CV)",
+    "target": "SERT",
+    "n": 2849,
+    "var_ratio": 1.0,
+    "R2": 0.541,
+    "ceiling": 0.8383006012024048,
+    "pct": 64.53532291686588
+  },
+  {
+    "evaluation": "Stalberga 2026 (pre-registered)",
+    "target": "DAT",
+    "n": 43,
+    "var_ratio": 0.681015295182282,
+    "R2": 0.451637218188538,
+    "ceiling": 0.7354148511983394,
+    "pct": 61.412577873917954
+  },
+  {
+    "evaluation": "Stalberga 2026 (pre-registered)",
+    "target": "NET",
+    "n": 43,
+    "var_ratio": 0.49734614414496164,
+    "R2": 0.014691014400797257,
+    "ceiling": 0.2627106121060917,
+    "pct": 5.59209020260838
+  },
+  {
+    "evaluation": "Stalberga 2026 (pre-registered)",
+    "target": "SERT",
+    "n": 43,
+    "var_ratio": 0.25248582950695253,
+    "R2": 0.046799362594588986,
+    "ceiling": 0.35957039999687357,
+    "pct": 13.015354599543205
+  },
+  {
+    "evaluation": "PDSP / BindingDB (exploratory)",
+    "target": "DAT",
+    "n": 29,
+    "var_ratio": 0.7310466187353484,
+    "R2": 0.3159551833915243,
+    "ceiling": 0.7535225133470707,
+    "pct": 41.9304238154854
+  },
+  {
+    "evaluation": "PDSP / BindingDB (exploratory)",
+    "target": "NET",
+    "n": 29,
+    "var_ratio": 0.8400281819712858,
+    "R2": 0.19657916191140298,
+    "ceiling": 0.563481271155057,
+    "pct": 34.88654760582255
+  },
+  {
+    "evaluation": "PDSP / BindingDB (exploratory)",
+    "target": "SERT",
+    "n": 29,
+    "var_ratio": 0.8164217252238466,
+    "R2": 0.35242521756120104,
+    "ceiling": 0.8019413327673753,
+    "pct": 43.94650869846504
+  },
+  {
+    "evaluation": "Cui et al. 2026 (exploratory)",
+    "target": "DAT",
+    "n": 11,
+    "var_ratio": 0.33770996773926704,
+    "R2": 0.08924093362748792,
+    "ceiling": 0.4664459138762346,
+    "pct": 19.132107490423177
+  },
+  {
+    "evaluation": "Cui et al. 2026 (exploratory)",
+    "target": "NET",
+    "n": 19,
+    "var_ratio": 1.061398660468836,
+    "R2": 0.3424706880372023,
+    "ceiling": 0.6545237450873902,
+    "pct": 52.32364610262941
+  },
+  {
+    "evaluation": "Cui et al. 2026 (exploratory)",
+    "target": "SERT",
+    "n": 18,
+    "var_ratio": 0.5172997170812212,
+    "R2": 0.4676034558991257,
+    "ceiling": 0.6874164174881875,
+    "pct": 68.02331803592122
+  }
+]

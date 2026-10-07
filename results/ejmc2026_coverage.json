@@ -1,0 +1,35 @@
+{
+  "DAT": {
+    "n_uncensored": 11,
+    "max": 6.398,
+    "n_above_p75": 0,
+    "compounds_above_p75": []
+  },
+  "NET": {
+    "n_uncensored": 19,
+    "max": 8.585,
+    "n_above_p75": 6,
+    "compounds_above_p75": [
+      4,
+      6,
+      10,
+      12,
+      18,
+      19
+    ]
+  },
+  "SERT": {
+    "n_uncensored": 18,
+    "max": 8.854,
+    "n_above_p75": 7,
+    "compounds_above_p75": [
+      3,
+      4,
+      6,
+      10,
+      12,
+      18,
+      19
+    ]
+  }
+}

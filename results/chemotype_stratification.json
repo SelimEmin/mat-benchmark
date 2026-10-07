@@ -1,0 +1,138 @@
+{
+  "records_used": 16750,
+  "seed": 0,
+  "per_target": {
+    "DAT": {
+      "n": 89,
+      "median_offset": -0.28000000000000025,
+      "ci95": [
+        -0.3799999999999999,
+        -0.16999999999999993
+      ],
+      "sd": 0.4454696337420908,
+      "wilcoxon_p": 5.108190186549583e-07
+    },
+    "NET": {
+      "n": 81,
+      "median_offset": 0.5399999999999991,
+      "ci95": [
+        0.3899999999999997,
+        0.6699999999999999
+      ],
+      "sd": 0.6554094764268545,
+      "wilcoxon_p": 1.2017002730644352e-08
+    },
+    "SERT": {
+      "n": 71,
+      "median_offset": -0.08000000000000007,
+      "ci95": [
+        -0.17999999999999972,
+        0.0
+      ],
+      "sd": 0.49165094724157854,
+      "wilcoxon_p": 0.05818605376034555
+    }
+  },
+  "kruskal_across_targets_p": 2.7374122905004444e-16,
+  "DAT_vs_SERT_mannwhitney_p": 0.0054026555828520575,
+  "NET_butina_strata_tanimoto_0.6": [
+    {
+      "n": 17,
+      "median_offset": 0.3099999999999996,
+      "ci95": [
+        -0.16999999999999993,
+        0.39000000000000057
+      ],
+      "centroid_murcko_scaffold": "c1ccc(-c2cnc(C3C4CCC(CC3c3ccccc3)N4)s2)cc1"
+    },
+    {
+      "n": 5,
+      "median_offset": 0.39999999999999947,
+      "ci95": [
+        -0.14999999999999947,
+        0.4499999999999993
+      ],
+      "centroid_murcko_scaffold": "O=C(CCc1ccccc1)NCCNCCOC(c1ccccc1)c1ccccc1"
+    },
+    {
+      "n": 5,
+      "median_offset": 0.6399999999999997,
+      "ci95": [
+        0.3899999999999997,
+        0.7799999999999994
+      ],
+      "centroid_murcko_scaffold": "c1ccc2cc(C3CC4CCC3C4)ccc2c1"
+    },
+    {
+      "n": 10,
+      "median_offset": 0.8599999999999999,
+      "ci95": [
+        0.36250000000000027,
+        1.3750000000000004
+      ],
+      "centroid_murcko_scaffold": "c1ccc(C2c3ccccc3C3=NCCN32)cc1"
+    },
+    {
+      "n": 25,
+      "median_offset": 0.9900000000000002,
+      "ci95": [
+        0.71,
+        1.0999999999999996
+      ],
+      "centroid_murcko_scaffold": "O=C(CN1CCCC1)c1ccccc1"
+    }
+  ],
+  "NET_leave_one_stratum_out": {
+    "pooled_all": 0.5399999999999991,
+    "runs": [
+      {
+        "dropped_n": 25,
+        "pooled_offset_without": 0.3899999999999997,
+        "shift": -0.14999999999999947
+      },
+      {
+        "dropped_n": 17,
+        "pooled_offset_without": 0.6549999999999998,
+        "shift": 0.11500000000000066
+      },
+      {
+        "dropped_n": 10,
+        "pooled_offset_without": 0.46999999999999975,
+        "shift": -0.0699999999999994
+      },
+      {
+        "dropped_n": 5,
+        "pooled_offset_without": 0.5,
+        "shift": -0.03999999999999915
+      },
+      {
+        "dropped_n": 5,
+        "pooled_offset_without": 0.5499999999999998,
+        "shift": 0.010000000000000675
+      }
+    ]
+  },
+  "NET_kruskal_across_strata_p": 3.853163493709976e-05,
+  "NET_murcko_strata": [
+    {
+      "n": 17,
+      "median_offset": 0.3099999999999996,
+      "scaffold": "c1ccc(-c2cnc(C3C4CCC(CC3c3ccccc3)N4)s2)cc1"
+    },
+    {
+      "n": 5,
+      "median_offset": 0.6399999999999997,
+      "scaffold": "c1ccc2cc(C3CC4CCC3C4)ccc2c1"
+    },
+    {
+      "n": 8,
+      "median_offset": 0.8599999999999999,
+      "scaffold": "c1ccc(C2c3ccccc3C3=NCCN32)cc1"
+    },
+    {
+      "n": 23,
+      "median_offset": 1.0700000000000003,
+      "scaffold": "O=C(CN1CCCC1)c1ccccc1"
+    }
+  ]
+}

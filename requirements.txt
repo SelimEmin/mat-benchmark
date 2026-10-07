@@ -1,0 +1,12 @@
+# Versions this deposit was last run and verified under (Python 3.11.15).
+# Pinned so that a reviewer reproduces the reported numbers exactly; the analyses
+# do not depend on these specific versions, but LightGBM's RNG and RDKit's
+# InChI implementation are the two that could move a figure if they changed.
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+lightgbm==4.7.0
+rdkit==2026.3.6
+statsmodels==0.15.0
+matplotlib==3.10.9

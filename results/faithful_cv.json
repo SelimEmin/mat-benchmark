@@ -1,0 +1,21 @@
+{
+  "internal": {
+    "pDAT": {
+      "mean": 0.5841188133779769,
+      "sd": 0.012963273701834683,
+      "published": 0.584
+    },
+    "pNET": {
+      "mean": 0.5007981543156083,
+      "sd": 0.013094726130353146,
+      "published": 0.501
+    },
+    "pSERT": {
+      "mean": 0.5411606693677987,
+      "sd": 0.012855662504473517,
+      "published": 0.541
+    }
+  },
+  "n_seeds": 20,
+  "r2_definition": "squared Pearson correlation, as in repeated_cv.py"
+}

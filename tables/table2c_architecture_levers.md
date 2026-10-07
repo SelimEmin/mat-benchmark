@@ -1,0 +1,11 @@
+### Table 2c — Architecture and feature levers, change in internal r²
+
+| lever | DAT | NET | SERT |
+|---|---|---|---|
+| multi-task (one-hot GBM) | -0.073 (p 0.000) | -0.049 (p 0.000) | -0.056 (p 0.000) |
+| + 204 RDKit descriptors | -0.007 (p 0.129) | -0.011 (p 0.010) | +0.011 (p 0.009) |
+| multi-task + descriptors | -0.060 (p 0.000) | -0.051 (p 0.001) | -0.032 (p 0.002) |
+| hyperparameter tuning | +0.012 (p 0.043) | +0.012 (p 0.001) | +0.034 (p 0.000) |
+| D-MPNN, 3 heads | -0.027 (1 seed) | -0.039 (1 seed) | -0.036 (1 seed) |
+
+*Baseline is the production configuration. All arms share one global scaffold split so a compound lands in the same fold throughout; 5 seeds except the D-MPNN, which is a single seed, 35 epochs, untuned and un-ensembled. The D-MPNN is worse on r² but better calibrated — slope +0.05 and bias ≈ 0 against −0.065 for the booster. Source: `improve_experiment.json`, `tune_experiment.json`, `dmpnn.json`.*

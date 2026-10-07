@@ -1,0 +1,22 @@
+{
+  "n_binding_records": 112,
+  "n_functional_records": 85,
+  "n_binding_docs": 33,
+  "n_functional_docs": 11,
+  "pooled_offset_median": 0.5399999999999991,
+  "pooled_n": 81,
+  "loo_worst": [
+    "CHEMBL1138144",
+    0.3899999999999997,
+    53
+  ],
+  "within_document_n": 75,
+  "within_document_median": 0.5499999999999998,
+  "within_document_docs": [
+    "CHEMBL1132179",
+    "CHEMBL1135775",
+    "CHEMBL1136239",
+    "CHEMBL1138144",
+    "CHEMBL1146223"
+  ]
+}
