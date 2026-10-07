@@ -15,15 +15,6 @@ use [¹²⁵I]RTI-55 as the NET radioligand and +0.038 — indistinguishable fro
 twenty-one that use [³H]nisoxetine. The pooled per-target figure the literature would quote
 is an average over assay cells that differ by more than a log unit.
 
----
-
-## Nothing to fill in
-
-The Zenodo DOI, the corresponding-author line and the repository URL are all set. The one
-optional edit is an ORCID: `CITATION.cff` carries a commented-out `orcid:` line, left
-commented because a wrong ORCID resolves to somebody else. Uncomment it if you have one.
-
----
 
 ## Layout
 
