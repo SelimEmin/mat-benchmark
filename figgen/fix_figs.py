@@ -24,7 +24,7 @@ plt.rcParams.update({"font.family": "sans-serif",
 D = json.load(open("figgen/figdata.json"))
 T = ("DAT", "NET", "SERT")
 COLS = {"DAT": BLUE, "NET": VERM, "SERT": TEAL}
-OUT = "tex/figures/"
+OUT = "figures/numbered/"
 
 
 def tidy(ax, left=True):

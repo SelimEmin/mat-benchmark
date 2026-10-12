@@ -15,21 +15,18 @@ env/
 # to a tracked file, so committing it would duplicate the whole deposit.
 _flat/
 
-# LaTeX build products. manuscript.pdf IS tracked -- it is the submitted artefact --
-# so it is re-included below.
-tex/*.aux
-tex/*.bbl
-tex/*.blg
-tex/*.fls
-tex/*.fdb_latexmk
-tex/*.log
-tex/*.out
-tex/*.synctex.gz
-tex/*.toc
-!tex/manuscript.pdf
+# The figure pipeline's intermediate; figgen/prep.py recomputes it
+figgen/figdata.json
 
 # Checkpoints internal_full.py writes between seeds
 internal_full_seed*.json
+
+# Editors and local environment
+.idea/
+.vscode/
+*.swp
+.env
+.ipynb_checkpoints/
 
 # OS cruft
 .DS_Store

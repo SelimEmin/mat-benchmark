@@ -1,5 +1,5 @@
 #!/bin/sh
-# Rebuild every manuscript figure, in the one order that is correct.
+# Rebuild every numbered figure, in the one order that is correct.
 #
 # Order matters and is not arbitrary:
 #   prep.py       recomputes figdata.json from the pre-registered model and protocol
@@ -9,14 +9,20 @@
 #   figs_11_12.py draws 11 and 12
 #   fig13.py      draws 13 under the skeleton-block overlap rule
 #
-# Run from the manuscript directory (the parent of figgen/), not from inside figgen/.
+# Run from the repository root (the parent of figgen/), not from inside figgen/.
 set -e
 cd "$(dirname "$0")/.."
+mkdir -p figures/numbered
+
+# figs_11_12.py reads within_doc_3targets.json from results/. An earlier version read it
+# from the root, which made this script abort after figure 11; fail loudly if it regresses.
+grep -q '"results/within_doc_3targets.json"' figgen/figs_11_12.py
+
 python figgen/prep.py
 python figgen/make_figs.py
 python figgen/fix_figs.py
 python figgen/figs_11_12.py
 python figgen/fig13.py
 echo
-echo "figures written to tex/figures/"
-ls -l tex/figures/*.pdf | awk '{print "  " $9, $5 " bytes"}'
+echo "figures written to figures/numbered/"
+ls -l figures/numbered/*.pdf | awk '{print "  " $9, $5 " bytes"}'

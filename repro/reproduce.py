@@ -19,7 +19,7 @@ accounted for, and both reduce to a statement that was missing from Methods.
 (2) THE EXTENDED SET, R^2 = 0.183.
     Two things were unstated. The DAT/SERT log-ratio is modelled DIRECTLY -- a single
     LightGBM trained on the log_DAT_SERT column -- not differenced from the two
-    per-target models, which gives 0.408. And the pooled statistic is computed on the
+    per-target models, which gives 0.352. And the pooled statistic is computed on the
     107 compounds from the three Basel/Linkoping sources; the seven Eshleman compounds
     are reported separately by source and excluded from the pooled figure. The manuscript
     describes the set as 114 compounds at that point, which is the set size, not the n

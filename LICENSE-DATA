@@ -2,18 +2,54 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 Copyright (c) 2026 Selim Emin Sahin
 
-The data files in this deposit -- the curated benchmark, the assay-modality
-labelling, the radioligand strata, the gold-standard annotation, the external
-sets and all derived tables (.csv, .json, .npz, .tsv) -- are licensed under the
-Creative Commons Attribution 4.0 International License.
+SCOPE. Every file that is not code is covered here: the curated benchmark, the
+assay-modality labelling, the radioligand strata, the gold-standard annotation,
+the external sets, the derived tables, the stored results and models, and the
+numbered figures (.csv, .json, .npy, .npz, .pkl, .md, .txt, .pdf, .png). This
+deposit's own contribution to those files -- the curation, the labelling, the
+annotation, the analyses and their outputs -- is licensed under the Creative
+Commons Attribution 4.0 International License, subject to the upstream
+condition recorded below.
 
 Full text: https://creativecommons.org/licenses/by/4.0/legalcode
 
-The code in this deposit (.py, .sh) is licensed separately under the MIT
-License; see LICENSE.
+The code (.py, .sh, .toml) is licensed separately under the MIT License; see
+LICENSE.
 
-ATTRIBUTION OF UPSTREAM SOURCES. The benchmark is derived from ChEMBL, which is
-released by the European Bioinformatics Institute under CC BY-SA 3.0, and from
-measurements published in the primary literature cited in the manuscript. The
-PDSP/BindingDB slice is redistributed from BindingDB. Users of this deposit
-should cite those sources as well as this one.
+UPSTREAM SOURCES. The benchmark is derived from ChEMBL, released by the European
+Bioinformatics Institute under CC BY-SA 3.0 Unported, and from measurements
+published in the primary literature cited in the article. The PDSP/BindingDB
+slice is redistributed from BindingDB, whose information page states a Creative
+Commons Attribution licence, no version given, conditional on citing BindingDB,
+and confirms that its own ChEMBL-sourced portion is CC BY-SA 3.0 Unported.
+Users of this deposit should cite those sources as well as this one.
+
+ChEMBL's share-alike condition. Share-alike means that a work adapting ChEMBL
+records may be redistributed only under CC BY-SA 3.0 or a licence compatible
+with it, and CC BY 4.0 is not one. The CC BY 4.0 grant above therefore covers
+this deposit's own contribution, while the files that reproduce or adapt ChEMBL
+records remain subject to share-alike. Those files are:
+
+  Substantially verbatim ChEMBL records
+    data/chembl_rederivation_activities.csv
+    data/net81_mat_activities.csv
+    data/modality_labels.csv
+    classified.csv
+    gs_key.csv
+    goldstandard_sample.csv
+    modality_gold_standard.csv
+
+  Aggregated from ChEMBL records
+    mat_profiles.csv
+    modality_labels_v2.csv
+    pooled_labels_v2.csv
+    data/net_paired_compounds.csv
+    data/within_document_pairs.csv
+    data/within_doc_DAT.csv, data/within_doc_NET.csv, data/within_doc_SERT.csv
+    data/releaser_blocker.csv
+    radioligand_pairs.csv, radioligand_strata.csv
+    twobytwo_by_radioligand.csv
+    within_doc_cells.csv
+
+A reuser who wants the whole deposit under one licence should treat it as
+CC BY-SA 3.0 or later. This is a record of the licence terms, not legal advice.

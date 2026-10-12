@@ -15,8 +15,10 @@
 # src/ holds the earlier-round scripts. They are kept byte-for-byte as they were run,
 # because the manuscript's Declarations enumerate the errors found during development and
 # that audit trail is only worth something if the code behind it is unedited. They are
-# still checked for correctness; four stylistic rules are waived for them, and the
-# waivers are listed by rule and by file rather than as a blanket exclusion so that a
+# still checked for correctness. Three stylistic rules (E402, E501, E741) are waived for
+# all of them. A fourth waiver, F821 undefined-name, is a correctness check rather than a
+# stylistic one, and is waived only for the three files that exec a sibling's header.
+# The waivers are listed by rule and by file rather than as a blanket exclusion so that a
 # reader can see exactly what is not being enforced and where.
 
 line-length = 100
