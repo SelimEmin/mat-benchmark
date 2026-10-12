@@ -14,7 +14,7 @@
 # Zenodo also shows a concept DOI under "Cite all versions"; if you deposit a second
 # version later, swap that one in here so the citation never points at a stale release.
 #
-# license lists both because the code is MIT and the data CC BY 4.0 (see LICENSE and
+# license lists both because the code is MIT and the data CC BY-SA 4.0 (see LICENSE and
 # LICENSE-DATA). GitHub and Zenodo read this field.
 #
 # An email address is optional here and this file is public, so none is included.
@@ -39,7 +39,7 @@ version: 1.0.0
 date-released: "2026-10-07"
 license:
   - MIT
-  - CC-BY-4.0
+  - CC-BY-SA-4.0
 repository-code: "https://github.com/SelimEmin/mat-benchmark"
 keywords:
   - QSAR
