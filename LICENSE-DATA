@@ -1,17 +1,15 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
 Copyright (c) 2026 Selim Emin Sahin
 
 SCOPE. Every file that is not code is covered here: the curated benchmark, the
 assay-modality labelling, the radioligand strata, the gold-standard annotation,
 the external sets, the derived tables, the stored results and models, and the
-numbered figures (.csv, .json, .npy, .npz, .pkl, .md, .txt, .pdf, .png). This
-deposit's own contribution to those files -- the curation, the labelling, the
-annotation, the analyses and their outputs -- is licensed under the Creative
-Commons Attribution 4.0 International License, subject to the upstream
-condition recorded below.
+numbered figures (.csv, .json, .npy, .npz, .pkl, .md, .txt, .pdf, .png). All of
+it is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License.
 
-Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+Full text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
 The code (.py, .sh, .toml) is licensed separately under the MIT License; see
 LICENSE.
@@ -24,11 +22,17 @@ Commons Attribution licence, no version given, conditional on citing BindingDB,
 and confirms that its own ChEMBL-sourced portion is CC BY-SA 3.0 Unported.
 Users of this deposit should cite those sources as well as this one.
 
-ChEMBL's share-alike condition. Share-alike means that a work adapting ChEMBL
-records may be redistributed only under CC BY-SA 3.0 or a licence compatible
-with it, and CC BY 4.0 is not one. The CC BY 4.0 grant above therefore covers
-this deposit's own contribution, while the files that reproduce or adapt ChEMBL
-records remain subject to share-alike. Those files are:
+WHY SHARE-ALIKE. ChEMBL's CC BY-SA 3.0 Unported licence requires that an
+adaptation of its records be redistributed under a share-alike licence.
+Creative Commons lists CC BY-SA 4.0 as a compatible licence for adaptations of
+BY-SA 3.0 material, so a single share-alike licence over the whole non-code
+tree satisfies that condition without carve-outs. Earlier versions of this file
+granted CC BY 4.0 and recorded the share-alike obligation as an exception
+applying to the ChEMBL-derived files; CC BY-SA 4.0 replaces that split, and no
+part of this deposit is now offered under terms weaker than share-alike.
+
+The files that reproduce or adapt ChEMBL records most directly, listed so a
+reuser can see where the upstream obligation originates:
 
   Substantially verbatim ChEMBL records
     data/chembl_rederivation_activities.csv
@@ -51,5 +55,4 @@ records remain subject to share-alike. Those files are:
     twobytwo_by_radioligand.csv
     within_doc_cells.csv
 
-A reuser who wants the whole deposit under one licence should treat it as
-CC BY-SA 3.0 or later. This is a record of the licence terms, not legal advice.
+This is a record of the licence terms, not legal advice.

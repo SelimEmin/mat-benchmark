@@ -5,7 +5,7 @@ property of the assay cell, not of the assay format: consequences for external v
 of monoamine transporter models*.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23144306.svg)](https://doi.org/10.5281/zenodo.23144306)
-&nbsp;Code: MIT · Data: CC BY 4.0
+&nbsp;Code: MIT · Data: CC BY-SA 4.0
 
 Archived at Zenodo: [10.5281/zenodo.23144306](https://doi.org/10.5281/zenodo.23144306)
 
@@ -353,9 +353,10 @@ which static analysis cannot follow. See `src/README.md`.
 ## Licensing
 
 Code (`.py`, `.sh`, `.toml`) is MIT; see `LICENSE`. Everything else -- the tables,
-stored results, models and figures as well as the data -- is CC BY 4.0; see
+stored results, models and figures as well as the data -- is CC BY-SA 4.0; see
 `LICENSE-DATA`, which also records the upstream attribution owed to ChEMBL and
-BindingDB.
+BindingDB. Share-alike is used because ChEMBL is CC BY-SA 3.0 Unported, and
+Creative Commons lists CC BY-SA 4.0 as compatible for adaptations of it.
 
 This repository is archived at Zenodo under
 [10.5281/zenodo.23144306](https://doi.org/10.5281/zenodo.23144306). The Zenodo record is
