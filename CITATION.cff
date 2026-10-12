@@ -1,12 +1,6 @@
 # Citation metadata. GitHub reads this file and offers a "Cite this repository"
 # button; Zenodo reads it when it archives a release.
 #
-# NOTHING TO FILL IN unless you have an ORCID.
-#
-# If you do, uncomment the orcid line below and put it there. It is commented out
-# rather than removed because a placeholder ORCID is worse than none: a wrong one
-# resolves to somebody else.
-#
 # date-released is the day this repository was first pushed. Change it if you push on
 # a different day.
 #
@@ -34,7 +28,7 @@ authors:
     given-names: Selim Emin
     affiliation: >-
       Departments of Chemistry and Neuroscience, The University of Texas at Austin
-  # orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0009-0001-8928-7962"
 version: 1.0.0
 date-released: "2026-10-07"
 license:
