@@ -18,7 +18,7 @@ plt.rcParams.update({"font.family": "sans-serif",
                      "xtick.major.width": 0.8, "ytick.major.width": 0.8})
 D = json.load(open("figgen/figdata.json"))
 T = ("DAT", "NET", "SERT")
-OUT = "tex/figures/"
+OUT = "figures/numbered/"
 COLS = {"DAT": BLUE, "NET": VERM, "SERT": TEAL}
 
 

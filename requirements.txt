@@ -10,3 +10,8 @@ lightgbm==4.7.0
 rdkit==2026.3.6
 statsmodels==0.15.0
 matplotlib==3.10.9
+
+# Optional. Only src/dmpnn.py needs torch: it is the sole producer of the D-MPNN row in
+# tables/table2c_architecture_levers.md, and nothing in the reproduction path imports it.
+# It is a large install, so it is left commented out.
+# torch

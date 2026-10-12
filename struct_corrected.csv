@@ -33,7 +33,7 @@ abbrev,final,route,cas,cid
 6Br-DMPEA,COc1cc(Br)c(CCN)cc1OC,both-agree,63375-81-5,820370
 Amphetamine,CC(N)Cc1ccccc1,both-agree,300-62-9,3007
 BOH 2C-B,COc1cc(C(O)CN)c(OC)cc1Br,CAS,807631-10-3,11370393
-Cocaine,COC(=O)C1C(OC(=O)c2ccccc2)CC2CCC1N2C,conflict,50-36-2,446220
+Cocaine,COC(=O)[C@H]1[C@@H](OC(=O)c2ccccc2)C[C@@H]2CC[C@H]1N2C,conflict,50-36-2,446220
 Deschloroketamine,CNC1(c2ccccc2)CCCCC1=O,both-agree,4631-27-0,18705340
 Eutylone,CCNC(CC)C(=O)c1ccc2c(c1)OCO2,both-agree,17764-18-0,112500420
 Iso-3-CMC,CNC(C(C)=O)c1cccc(Cl)c1,OPSIN,,

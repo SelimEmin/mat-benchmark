@@ -93,7 +93,7 @@ h += [plt.Line2D([], [], color="#DDE3E9", lw=6, label="training (uncensored)"),
       plt.Line2D([], [], color="#222222", ls="--", lw=1.0, label="training 75th pct")]
 axes[0].legend(handles=h, frameon=False, fontsize=7.2, ncol=3, loc="lower center",
                bbox_to_anchor=(0.5, 1.03), columnspacing=1.4, handletextpad=.5)
-fig.savefig("tex/figures/fig13_newsets.pdf", bbox_inches="tight")
+fig.savefig("figures/numbered/fig13_newsets.pdf", bbox_inches="tight")
 print("\ncounts above the training 75th percentile:")
 for nm, _, _ in SETS:
     print(f"   {nm:<20}" + "  ".join(f"{t} {counts[(nm,t)]}" for t in T))

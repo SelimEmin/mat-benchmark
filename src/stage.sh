@@ -24,6 +24,14 @@ link() {
 
 link src/*.py
 link data/*
+
+# Several scripts read data/<file> with the prefix rather than by bare name, so data/ is
+# also mirrored as a subdirectory of the staging directory.
+mkdir -p "$OUT/data"
+for f in data/*; do
+  [ -f "$f" ] || continue
+  ln -f "$f" "$OUT/$f" 2>/dev/null || cp -f "$f" "$OUT/$f"
+done
 link results/*
 link ./*.csv ./*.json ./*.npy ./*.npz ./*.pkl
 

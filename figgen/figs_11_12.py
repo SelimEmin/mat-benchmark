@@ -21,7 +21,7 @@ plt.rcParams.update({"font.family": "sans-serif",
                      "font.sans-serif": ["Liberation Sans", "DejaVu Sans"],
                      "font.size": 9, "axes.linewidth": 0.8})
 E = ""
-OUT = "tex/figures/"
+OUT = "figures/numbered/"
 T = ("DAT", "NET", "SERT")
 COLS = {"DAT": BLUE, "NET": VERM, "SERT": TEAL}
 FLOOR = 0.194
@@ -66,7 +66,7 @@ ax.text(0.985, 0.04, "shaded: replicate floor $\\pm0.19$", transform=ax.transAxe
 save(fig, "fig11_chemotype")
 
 # ============================================ fig 12 within-document offsets
-W = json.load(open(E + "within_doc_3targets.json"))["chembl"]
+W = json.load(open(E + "results/within_doc_3targets.json"))["chembl"]
 DOC = {"CHEMBL1132179": "Choi 1999", "CHEMBL1135775": "Houlihan 2002",
        "CHEMBL1136239": "Axford 2003", "CHEMBL1138144": "Meltzer 2006",
        "CHEMBL1146223": "Gong 2007"}

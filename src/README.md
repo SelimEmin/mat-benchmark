@@ -8,13 +8,13 @@ something if the code behind it has not been quietly tidied afterwards.
 
 ## They need a flat working directory
 
-Every script here reads its inputs by bare filename from the current directory, because
-they were all run in one flat folder. Sorting the deposit into `data/`, `results/`,
+Most scripts here read their inputs by bare filename from the current directory, because
+they were all run in one flat folder; a few read `data/<file>` with the prefix. Sorting the deposit into `data/`, `results/`,
 `figures/` and `tables/` made the repository legible and broke those paths. Rather than
 rewrite twenty-odd scripts, stage the directory they expect:
 
 ```
-sh src/stage.sh          # builds _flat/ from data/, results/ and the root artefacts
+sh src/stage.sh          # builds _flat/ (and _flat/data/) from data/, results/ and the root artefacts
 cd _flat && python coverage.py
 ```
 
@@ -35,6 +35,12 @@ It works, and it is the reason `ruff` reports `F821 undefined-name` for every in
 name in those three files — static analysis does not follow `exec`. Those three are the
 only `F821` waivers in `ruff.toml`, listed by filename so the exception cannot quietly
 widen. If you are writing anything new, import; do not copy this.
+
+## One script's input is not deposited
+
+`pdsp_extract.py` builds the PDSP/BindingDB slice from the full BindingDB TSV download,
+which is about 300 MB and is not deposited. Its outputs, `data/pdsp_mat_raw.csv` and
+`data/pdsp_mat_profiles.csv`, are.
 
 ## What this directory is not
 
