@@ -8,6 +8,7 @@
 #                 figure can disagree with a table; it must run after make_figs.py
 #   figs_11_12.py draws 11 and 12
 #   fig13.py      draws 13 under the skeleton-block overlap rule
+#   toc_graphic.py draws the ACS table-of-contents graphic from the Table 10 values
 #
 # Run from the repository root (the parent of figgen/), not from inside figgen/.
 set -e
@@ -23,6 +24,7 @@ python figgen/make_figs.py
 python figgen/fix_figs.py
 python figgen/figs_11_12.py
 python figgen/fig13.py
+python figgen/toc_graphic.py
 echo
 echo "figures written to figures/numbered/"
 ls -l figures/numbered/*.pdf | awk '{print "  " $9, $5 " bytes"}'
